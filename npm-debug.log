@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json meli-test@0.0.1 No description
+5 warn package.json meli-test@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/Jonathan/Downloads/meli', [] ]
+8 info preinstall meli-test@0.0.1
+9 warn package.json gulp-minify-css@1.2.4 No repository field.
+10 verbose readDependencies using package.json deps
+11 silly resolved []
+12 info build /Users/Jonathan/Downloads/meli
+13 verbose linkStuff [ false, false, false, '/Users/Jonathan/Downloads' ]
+14 info linkStuff meli-test@0.0.1
+15 verbose linkBins meli-test@0.0.1
+16 verbose linkMans meli-test@0.0.1
+17 verbose rebuildBundles meli-test@0.0.1
+18 verbose rebuildBundles [ '.bin',
+18 verbose rebuildBundles   'gulp',
+18 verbose rebuildBundles   'gulp-concat',
+18 verbose rebuildBundles   'gulp-minify-css',
+18 verbose rebuildBundles   'gulp-rename',
+18 verbose rebuildBundles   'gulp-uglify',
+18 verbose rebuildBundles   'gulp-webserver' ]
+19 verbose rebuild bundle /Users/Jonathan/Downloads/meli/node_modules/gulp
+20 info build /Users/Jonathan/Downloads/meli/node_modules/gulp
+21 info preinstall gulp@3.9.1
+22 verbose linkStuff [ false,
+22 verbose linkStuff   false,
+22 verbose linkStuff   false,
+22 verbose linkStuff   '/Users/Jonathan/Downloads/meli/node_modules' ]
+23 info linkStuff gulp@3.9.1
+24 verbose linkBins gulp@3.9.1
+25 verbose link bins [ { gulp: './bin/gulp.js' },
+25 verbose link bins   '/Users/Jonathan/Downloads/meli/node_modules/.bin',
+25 verbose link bins   false ]
+26 verbose linkMans gulp@3.9.1
+27 verbose rebuildBundles gulp@3.9.1
+28 verbose rebuildBundles [ '.bin',
+28 verbose rebuildBundles   'archy',
+28 verbose rebuildBundles   'chalk',
+28 verbose rebuildBundles   'deprecated',
+28 verbose rebuildBundles   'gulp-util',
+28 verbose rebuildBundles   'interpret',
+28 verbose rebuildBundles   'liftoff',
+28 verbose rebuildBundles   'minimist',
+28 verbose rebuildBundles   'orchestrator',
+28 verbose rebuildBundles   'pretty-hrtime',
+28 verbose rebuildBundles   'semver',
+28 verbose rebuildBundles   'tildify',
+28 verbose rebuildBundles   'v8flags',
+28 verbose rebuildBundles   'vinyl-fs' ]
+29 error Error: EPERM, chmod '/Users/Jonathan/Downloads/meli/node_modules/gulp/bin/gulp.js'
+29 error  { [Error: EPERM, chmod '/Users/Jonathan/Downloads/meli/node_modules/gulp/bin/gulp.js']
+29 error   errno: 50,
+29 error   code: 'EPERM',
+29 error   path: '/Users/Jonathan/Downloads/meli/node_modules/gulp/bin/gulp.js' }
+30 error Please try running this command again as root/Administrator.
+31 error System Darwin 15.3.0
+32 error command "node" "/usr/local/bin/npm" "install"
+33 error cwd /Users/Jonathan/Downloads/meli
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 error path /Users/Jonathan/Downloads/meli/node_modules/gulp/bin/gulp.js
+37 error code EPERM
+38 error errno 50
+39 error stack Error: EPERM, chmod '/Users/Jonathan/Downloads/meli/node_modules/gulp/bin/gulp.js'
+40 verbose exit [ 50, true ]

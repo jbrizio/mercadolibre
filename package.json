@@ -1,0 +1,15 @@
+{
+  "name": "meli-test",
+  "version": "0.0.1",
+  "description": "Page created to prove my knowledge in web development.",
+  "author": "<jonathanbrizio@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "license": "MIT",
+  "engine": "node >= 0.10.0",
+  "devDependencies": {
+    "gulp-htmlmin": "^1.3.0"
+  }
+}
